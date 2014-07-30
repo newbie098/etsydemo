@@ -37,6 +37,8 @@ gem 'bootstrap-sass', '~> 3.2.0'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem "paperclip", "~> 3.0"
+#gem 'paperclip', github: 'thoughtbot/paperclip'
+#gem "paperclip-dropbox", ">= 1.1.7"
 
 group :production do 
 	gem 'pg'
