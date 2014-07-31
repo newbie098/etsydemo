@@ -39,6 +39,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem "paperclip", "~> 3.0"
 #gem 'paperclip', github: 'thoughtbot/paperclip'
 #gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
+gem 'devise'
 
 group :production do 
 	gem 'pg'
